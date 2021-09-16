@@ -1,0 +1,43 @@
+.img-container{
+    height: 400px;
+    width: 80%;
+    border: 15px solid rgb(182, 148, 148);
+    margin: 2% auto;
+    outline: 5px double blue;
+    outline-offset: 15px;
+}
+.img-container img{
+    height: 100%;
+    width: 100%;
+}
+.head{
+    text-align: center;
+    font-size: 25px;
+    border: 5px solid;
+    padding: 5px;
+}
+body{
+    background-color: cornsilk;
+}
+q{
+    font-size: 20px;
+    text-transform: capitalize;
+    font-weight: 700;
+}
+.quite{
+    text-align: center;
+    margin: 0;
+}
+
+@media only screen and (max-width:680px){
+    .img-container{
+        width: 80%;
+        height: 200px;
+        margin: 25% auto;
+        border: 5px dotted yellowgreen;
+        outline-style: double;
+    }
+    body{
+        background-color: cornsilk;
+    }
+}
